@@ -1,6 +1,6 @@
 {
-    "name": "stil/gd-text",
-    "description": "A class drawing multiline and aligned text on pictures. Uses GD extension.",
+    "name": "Power2All/gd-text",
+    "description": "A class drawing multiline and aligned text on pictures. Uses GD extension. (Fork of stil/gd-text)",
     "license": "MIT",
     "require": {
         "php": ">=5.3",
