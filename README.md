@@ -4,7 +4,7 @@ gd-text
 ### Installation via Composer:
 
 ```bash
-composer require stil/gd-text
+composer require Power2All/gd-text
 ```
 
 ### Basic usage example
