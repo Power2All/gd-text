@@ -311,8 +311,8 @@ class Box
             if ($this->textShadow !== false) {
                 $this->drawInternal(
                     new Point(
-                        $xMOD + $this->textShadow['offset']->getX(),
-                        $yMOD + $this->textShadow['offset']->getY()
+                        floor($xMOD + $this->textShadow['offset']->getX()),
+                        floor($yMOD + $this->textShadow['offset']->getY())
                     ),
                     $this->textShadow['color'],
                     $line
@@ -322,8 +322,8 @@ class Box
             $this->strokeText($xMOD, $yMOD, $line);
             $this->drawInternal(
                 new Point(
-                    $xMOD,
-                    $yMOD
+                    floor($xMOD),
+                    floor($yMOD)
                 ),
                 $this->fontColor,
                 $line
